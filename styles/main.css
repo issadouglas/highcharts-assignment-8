@@ -1,0 +1,184 @@
+/* you will add css rules for element selectors and IDs */
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*{
+  box-sizing: inherit;
+}
+
+/* you may add to or change the body rule */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    font-family: sans-serif;
+    color: #fff;
+    background: #282598;
+    margin: 0rem;
+}
+
+header {
+  justify-content: space-between;
+  padding: 2rem;
+  margin: 0rem;
+  font-size: 2rem;
+}
+header p{
+  font-size: 1.3rem;
+    text-align: center;
+}
+
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 0rem;
+  align-items: center;
+}
+
+#container{
+  height: 50rem;
+  width: 60rem;
+}
+
+#container10{
+  height: 50rem;
+  width: 60rem;
+}
+
+#box{
+  background: #FF0000 ;
+  padding: 2rem;
+  margin: 2rem;
+  max-width: 60rem;
+}
+
+section {
+padding: 2rem;
+margin: 2rem;
+
+}
+
+
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1rem;
+}
+
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 310px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+/*chart 10*/
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 320px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+@media screen and (max-width: 800px) {
+  #container {
+    height: 25rem;
+    width: 25rem;
+  }
+  }
+  @media screen and (max-width: 800px) {
+    #container10 {
+      height: 25rem;
+      width: 25rem;
+    }
+    }
